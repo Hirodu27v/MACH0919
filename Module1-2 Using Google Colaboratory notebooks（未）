@@ -1,0 +1,66 @@
+Using Google Colaboratory notebooks
+OK, so to do machine learning, you have to have access to a pretty powerful computer.
+There are a lot of options out there online for getting access to the kind of computer you
+need, which includes something called a GPU. It's a graphics processing unit. It was
+originally designed for gaming and for fast videos, but actually it can be used for machine
+learning, which is super cool. But you probably don't have that kind of computer around.
+And even if you did, getting it set up to do machine learning is kind of hard, but there's a
+great solution out there. There's a free solution Google provides, where you can use a
+computer called Google Colab Notebooks and do machine learning using a GPU all for
+free.
+There are some limitations to this, as you might expect. There's a limit on the size of the
+data that you can be processing. And a very important part of it is that whenever you close
+your browser tab, so we'll be doing this inside the browser, if you close the browser tab, or
+even if you don't use the notebook for about 90 minutes, it shuts down completely. So it's
+not something that you have sort of ownership of. You are borrowing it from Google.
+So we're going to learn how to save your work next week, so don't worry about that for
+now. But just remember that Google Colab Notebooks disappear after a little bit of time.
+OK. So for all of these videos, I really recommend that you watch me do it in the video first,
+and then go back and play the video again while you try it yourself. So see what you're
+going to do first, and then go try it yourself. Alright. Let's get started.
+So the virtual computer we're going to use is on Google. It's actually on Google Colab, and
+it's Colab.Research.Google.com is where we're going. We're going to load in the
+notebooks for each lesson right here, and we're going to load it in from the Quartz GitHub
+repository. So start here, switch over to the GitHub tab, and type in "Quartz," and hit enter.
+You'll see Quartz AI Studio Workshops. That's the one you want. And for this lesson right
+here, it's AA using Google Collab. And so now we are actually running a computer in the
+Google cloud and we need it to be a little bit more powerful than the one that they give you
+right off the bat. We need to turn on the GP you, which is the graphics processing unit.
+And we do that by clicking on this runtime menu and going to change runtime type. And
+we switch this to GP, you know, we're almost always going to do this when we start our
+notebooks and here's some instructions just in case you forget. And the way that we are
+going to use this notebook is that there's some parts of this where there's some words and
+some explanation. I'm always trying to be as clear as possible so you can read along. But
+then there are also some of these cells have code in them. And if you hover over this little
+spot right here, you'll see there's a little play button. What I want to do is hit play. Now, the
+first time you hit play in a notebook, it gives you this little warning and we're going to say,
+that's OK. Run anyway. And then it plays the code inside the notebook. That's what's
+going to be kind of neat about this class, is that you don't have to actually write any code.
+You get to see the code I write. I've already written and and play it and run it. Each one,
+each cell individually. So since we are using Google collab, we run that. So we skip this
+one. This code could be used in another platform, but we're using chrome laboratory
+collab. So we'll stay there. Everybody runs this cell. So run that. And in every notebook in
+this in the series, I usually write out a plan and talk about the data we're gonna be using.
+I'll give credit to anybody who who's code or resources I've been using. And then there'll
+be code. And I just want to give you an example of this. So, again, we can play all of these
+cells. So this is Python code. Very simple. I can actually hit play here and I say a variable
+A equals 10.
+And then I can just print A and I get 10. Then I can say A equals a plus five. So A equals
+10 plus five. And that should be 15.
+And what's interesting here is that it will remember the state of a the value of a all along.
+So if I actually run this again. So now A equals 15 plus five. So now if I print again, it's 20
+and I can actually go back and run earlier cells like that one and then I can print again. And
+it's back to 10 because I ran this cell, which set a equal to 10. Also, if you ever want to add
+cells of code or text, you can hover over here and just add them. And a lot of times you'll
+see I'll just write a variable name in this case. A I don't even have to say print a I can just
+say a. And it'll say, oh, that's 10. Just say no. So that's really all you need to know right
+now about using Google Chrome lab notebooks. All of the code will be here for you along
+the way.
+So online services often change their user interface or the steps to go through to do
+something like this with Google code lab notebooks. So if that happens between the time I
+make this video and the time you watch this video, I'll update the steps at this bitterly link.
+So bitterly flash a dash workshops. So the latest steps will always be there. So if it's not
+matching up with what you're seeing here in this video, go check out that link and that'll
+have the latest updates. Now that you've seen how to use Google collab, notebooks will
+load in some code and use an open source machine learning model to identify the
+contents of images inside a folder. And that could be super useful.
