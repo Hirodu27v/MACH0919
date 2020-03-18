@@ -1,4 +1,6 @@
 Using Google Colaboratory notebooks
+
+
 OK, so to do machine learning, you have to have access to a pretty powerful computer.
 There are a lot of options out there online for getting access to the kind of computer you
 need, which includes something called a GPU. It's a graphics processing unit. It was
